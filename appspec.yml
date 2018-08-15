@@ -20,3 +20,7 @@ hooks:
     - location: app_spec_scripts/application_stop.sh
       timeout: 300
       runas: root
+  ValidateService:
+    - location: app_spec_scripts/validate_service.sh
+      timeout: 300
+      runas: root
